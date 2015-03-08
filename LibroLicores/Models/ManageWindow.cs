@@ -2,7 +2,7 @@
 using System.Windows.Controls;
 using System;
 using WpfPageTransitions;
-using LibroLicores.UserControl;
+using LibroLicores.UserControls;
 
 
 namespace LibroLicores.Models
@@ -44,7 +44,7 @@ namespace LibroLicores.Models
             }
         }
 
-        public void Iniciar(Login log)
+        public void Iniciar(ucLogin log)
         {
             
             //_Contenedor = new PageTransition();
